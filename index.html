@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Callenge 2025</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h2 id="clock"></h2>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="main">
+      <form id="login-form" class="hidden">
+        <input type="text" placeholder="What is your name?" maxlength="15" />
+        <input type="submit" value="Log In" />
+      </form>
+      <div id="greeting-rename" class="hidden">
+        <h1 id="greeting"></h1>
+      </div>
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a To Do and Press Enter."
+          required
+        />
+      </form>
+      <ul id="todo-list" class="mobile tablet pc"></ul>
+    </div>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+  </body>
+</html>
