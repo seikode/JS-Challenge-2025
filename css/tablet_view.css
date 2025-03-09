@@ -1,0 +1,126 @@
+/* 태블릿 세로 */
+@media only screen and (768px <= width <= 1023px) and (orientation: portrait) {
+  #clock {
+    font-size: 3rem;
+  }
+
+  #weather {
+    font-size: 2rem;
+    text-align: right;
+  }
+
+  #greeting {
+    font-size: 4rem;
+    margin: 3% 0 3% 0;
+  }
+
+  #login-form input:first-child {
+    width: 10rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #login-form input:last-child {
+    width: 5rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+  #todo-form input {
+    margin: 1% 0;
+    width: 28rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #todo-list.tablet {
+    margin: 2% 0 0 0;
+    width: 60%;
+    height: 20vh;
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  #todo-list span {
+    font-size: 1.5rem;
+    font-weight: 300;
+    height: auto;
+    background-color: rgba(233, 233, 233, 0.5);
+    border-radius: 10px;
+  }
+}
+
+
+/* 태블릿 가로 */
+@media only screen and (768px <= width <= 1023px) and (orientation: Landscape) {
+  #clock {
+    font-size: 3rem;
+  }
+
+  #weather {
+    font-size: 2rem;
+    text-align: right;
+  }
+
+  #greeting {
+    font-size: 4rem;
+    margin: 3% 0 3% 0;
+  }
+
+  #login-form input:first-child {
+    width: 10rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #login-form input:last-child {
+    width: 5rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+  #todo-form input {
+    margin: 1% 0;
+    width: 28rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #todo-list.tablet {
+    margin: 2% 0 0 0;
+    width: 60%;
+    height: 20vh;
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  #todo-list span {
+    font-size: 1.5rem;
+    font-weight: 300;
+    height: auto;
+    background-color: rgba(233, 233, 233, 0.5);
+    border-radius: 10px;
+  }
+}

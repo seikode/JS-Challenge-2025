@@ -1,0 +1,129 @@
+/*모바일 세로 : -767px*/
+@media only screen and (max-width: 479px) and (orientation: portrait) {
+  #clock {
+    font-size: 2rem;
+  }
+
+  #weather {
+    font-size: 1rem;
+    text-align: right;
+  }
+
+  #greeting {
+    font-size: 3rem;
+    text-align: center;
+    margin: 5% 0 5% 0;
+    animation: fadeIn 0.8s linear;
+    opacity: 0.8;
+  }
+
+  #login-form input:first-child {
+    width: 10rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #login-form input:last-child {
+    width: 5rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #todo-form input {
+    width: 14rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #todo-list.mobile {
+    margin: 3% 0 0 0;
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  #todo-list span {
+    font-size: 20px;
+    font-weight: 300;
+    height: auto;
+    background-color: rgba(233, 233, 233, 0.5);
+    border-radius: 10px;
+  }
+}
+
+/* 모바일 가로  */
+@media only screen and (480px <= width <= 767px) and (orientation: landscape) {
+  #clock {
+    font-size: 2rem;
+  }
+
+  #weather {
+    font-size: 1rem;
+    text-align: right;
+  }
+
+  #greeting {
+    font-size: 2rem;
+    margin: 0 0 2% 0;
+  }
+
+  #login-form input:first-child {
+    width: 10rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #login-form input:last-child {
+    width: 5rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+  #todo-form input {
+    width: 14rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #todo-list.mobile {
+    margin: 3% 0 0 0;
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  #todo-list span {
+    font-size: 18px;
+    font-weight: 300;
+    height: auto;
+    background-color: rgba(233, 233, 233, 0.5);
+    border-radius: 10px;
+  }
+}
